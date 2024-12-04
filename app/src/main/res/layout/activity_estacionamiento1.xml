@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Estacionamiento1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/estacionamientos_supermercado_lider"
+            android:layout_gravity="center"
+            android:textSize="23sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/latolight"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEstacionamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:endIconMode="custom"
+            android:textColorHint="@color/grey"
+            android:hint="@string/ingresa_un_estacionamiento">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEstacionamiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/latolight"
+                android:textSize="19sp"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:endIconMode="custom"
+            android:textColorHint="@color/grey"
+            android:hint="@string/ingresa_el_estado_libre_ocupado">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/latolight"
+                android:textSize="19sp"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_estacionamiento"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/latolight"
+            android:textStyle="bold"
+            android:backgroundTint="@color/azul_especial"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volver_al_inicio"
+            android:fontFamily="@font/latolight"
+            android:textStyle="bold"
+            android:backgroundTint="@color/naranjo"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/btnVer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_estacionamientos"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/latolight"
+            android:textStyle="bold"
+            android:backgroundTint="@color/azul_cielo"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

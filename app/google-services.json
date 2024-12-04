@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "232163022740",
+    "project_id": "evaluacion-3-iot-67f4c",
+    "storage_bucket": "evaluacion-3-iot-67f4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232163022740:android:0d7af61e6cdf34fd0ee181",
+        "android_client_info": {
+          "package_name": "com.example.estacionamientofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNdybJMmFwTOxV5NZ1nhD3RTKi_SEbCeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
